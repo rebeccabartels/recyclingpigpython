@@ -1,0 +1,21 @@
+stage.set_background("park")
+
+wilbur = codesters.Sprite("pig")
+
+wilbur.go_to(50, -150)
+
+wilbur.flip_right_left()
+
+bin = codesters.Sprite("recyclingbin")
+
+bin.go_to(-200, -150)
+
+wilbur.say("Hi! Thanks for coming to help clean up the park!")
+
+stage.wait(2)
+
+wilbur.say("When I find litter, I recycle!")
+
+stage.wait(2)
+
+wilbur.say(" ")
